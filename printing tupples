@@ -1,0 +1,20 @@
+tup = (5, 'Welcome', 7.5, True)
+print(tup)
+
+# Creating a Tuple with nested tuples
+tup1 = (0, 1, 2, 3)
+tup2 = ('Python', 'Data')
+tup3 = (tup1, tup2)
+print(tup3)
+
+# Creating a Tuple with repetition
+tup4 = ('Code',) * 3
+print(tup4)
+
+# Creating a Tuple using a loop
+tup = ('Python')
+n = 3
+for i in range(n):
+    tup = (tup,)
+    print(tup)
+
